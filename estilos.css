@@ -1,0 +1,86 @@
+/*SELCTOR UNIVERSAL */
+
+*{margin: 0;
+
+padding: 0;}
+
+/*SELCTOR DE ETIQUETAS */
+
+body{
+background-image: url("https://www.disneyclips.com/goodies/images/lion-king-simba-wallpaper.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+
+}
+
+main{
+    background-color: rgba(0, 195, 255, 0.282);
+    box-shadow: rgba(255, 250, 246); 
+    
+    text-align:justify;
+    
+    width: 100%;
+
+    top: 40%;
+    left: 40%;
+    right: 40%;
+  
+    margin: 0 auto;
+    
+}
+
+.padre {
+    
+    margin: 5rem;
+    padding: 1rem;
+    
+    /* IMPORTANTE */
+    text-align: justify;
+  }
+
+h1 {
+	font-size: 2.3em;
+	line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+}
+
+h2{
+    font-size:medium;
+    background-color: rgba(214, 244, 244);
+}
+/*----------- CAJA ----------- */
+.caja { 
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    color: #ffffff; 
+    font-size: 18px; 
+    font-weight: 100; 
+    text-align: center; 
+    background: #889ccf; 
+    margin: 0 0 15px; 
+    overflow: hidden; 
+    padding: 20px; 
+    border-radius: 35px 0px 35px 0px; 
+    -moz-border-radius: 35px 0px 35px 0px; 
+    -webkit-border-radius: 35px 0px 35px 0px; 
+    border: 2px solid #5878ca;}
+
+
+
+p{
+    
+    font-family: serif;
+    font-size: x-large;
+    
+    
+}
+
+.letracapital::first-letter
+{
+  font-size: 80px;
+  font-weight: bold;
+  color: blue;
+}
